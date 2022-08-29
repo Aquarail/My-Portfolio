@@ -13,13 +13,14 @@ a {
 body {
     background: #171717;
     font-family: 'DM Sans', sans-serif;
-    padding-top: 28px;
+    padding: 28px 15px 0 15px;
     color: #fff;
 }
 
 .wrapper {
     max-width: 1100px;
     margin: 0 auto;
+    max-height: 100vh;
 }
 /* HEADER */
 .header {
@@ -47,8 +48,9 @@ body {
 }
 /* HEADER ENDS */
 
+/* SECTION MAIN */
 .section-main {
-    height: 100vh;
+
     margin-top: 15%;
 }
 
@@ -56,6 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .main-info h1 {
@@ -91,13 +94,13 @@ body {
 }
 
 .picture-box {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid transparent;
     background-image: linear-gradient(90deg, rgba(88,196,183,1) 0%, rgba(9,121,70,1) 48%, rgba(0,255,186,1) 100%);
-    animation: gradient 2s infinite linear;
+    animation: gradient 4s infinite linear;
     background-size: 300%; 
 }
 
@@ -121,8 +124,58 @@ body {
 }
 
 .my-pic {
-    max-height: 500px;
+    max-height: 600px;
     width: 100%;
-
 }
 
+.buttons-main {
+    margin-bottom: 100px;
+}
+/* SECTION MAIN ENDS */
+/* SECTION ABOUT */
+.about {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 38px;
+}
+
+.about-intro-text {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 740px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-bottom: 60px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.about-item {
+    font-size: 18px;
+}
+
+.about-item span{
+    margin: 18px 0 5px 0;
+    display: block;
+    font-weight: 700;
+}
+
+.about-item p {
+    font-weight: 400;
+}
+/* ABOUT END */
+/* FOOTER */
+.footer h2 {
+    margin-top: 100px 80px;
+    text-align: center;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+}
